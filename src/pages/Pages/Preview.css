@@ -1,0 +1,10 @@
+.withinBox {
+  /* background-color: rgb(13, 63, 226) !important; */
+  /* background-color: rgb(130, 216, 238); */
+  text-align: center;
+  transition: ease-in background-color 0.3s;
+}
+.withinBox:hover {
+  background-color: white;
+  /* display: none !important; */
+}

@@ -1,0 +1,315 @@
+.sideBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  z-index: 5;
+  /* display: none; */
+}
+.side {
+  margin: 4px, 4px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+  padding: 2%;
+  /* border-radius: 20%; */
+  width: 80%;
+  height: 80%;
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  transform: translate(0%, -50%);
+  z-index: 10;
+}
+.subAddButton {
+  /* border: 2px solid rgb(97, 0, 76) !important; */
+  border-radius: 50% !important;
+
+  color: rgb(144, 16, 106) !important;
+  width: 75px;
+  height: 75px;
+  /* font-size: 300px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.subAddButtonHead {
+  /* border: 2px solid rgb(97, 0, 76) !important; */
+  border-radius: 50% !important;
+
+  color: rgb(144, 16, 106) !important;
+  /* width: 75px;
+  height: 75px; */
+  /* font-size: 300px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.subAddButtonHeadInSide {
+  border: none;
+  color: #fc15e9;
+  background-color: transparent;
+}
+.subAddButtonHeadInSide:hover {
+  color: #ffffff;
+}
+.subAddButtonHeadInSide:active {
+  color: #55074b;
+}
+.subAddButtonHead2 {
+  border-radius: 5px;
+  border: 0px;
+  color: white !important;
+  background-color: #fc15e9;
+}
+.NavBtn {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+  margin-left: 24px;
+  width: 100%;
+}
+.NavBtnLink {
+  text-align: center !important;
+  margin-top: 17px;
+  /* margin-right: 80px; */
+  border-radius: 50px;
+  /* border-top: 50%;
+  border-left: 50%; */
+  background: #fc15e9;
+  padding: 10px 22px;
+  color: white;
+  border: none;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+/* .NavBtnLink:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+  color: #010606;
+} */
+.NavBtnLink:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #92007f;
+  color: #fff;
+}
+.NavBtnLink:active {
+  transition: all 0.2s ease-in-out;
+  background-color: #35012e;
+  color: #fff;
+}
+.col-sm-3 {
+  display: flex;
+  width: 400px;
+  height: 55vh;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 50px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+}
+.dlt {
+  transition: ease-in background-color 0.25s;
+}
+.dlt:hover {
+  background-color: darkred !important;
+}
+.card2 {
+  width: 250px;
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  position: relative;
+  top: 2%;
+  transition: ease-in top 0.25s, ease-in overflow 0.5s;
+  margin-inline: 5%;
+  padding: 5%;
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 10px #ccc;
+  /* overflow: hidden; */
+  /* transition: ease-in overflow 100s; */
+}
+.card2:hover {
+  top: -10px;
+  overflow: visible;
+}
+.formButtons {
+  background-color: rgb(11, 143, 204) !important;
+  transition: background-color ease-in 0.25s;
+}
+.formButtons:hover {
+  background-color: rgb(30, 30, 163) !important;
+}
+.playIt2 {
+  max-width: 90%;
+  max-height: 20vh;
+}
+
+.createContainer {
+  background-color: rgb(50, 167, 245);
+  /* padding: ; */
+  margin-left: 50%;
+  border-radius: 20px;
+  height: 40px;
+  transition: ease-in background-color 0.25s;
+}
+.createButton {
+  color: white;
+  padding: 10%;
+  padding-left: 25%;
+}
+.createContainer:hover {
+  background-color: blue;
+}
+.shareBut {
+  background-color: transparent !important;
+}
+
+.SocialShare2 {
+  position: absolute;
+  top: 2%;
+  right: -10%;
+  /* border: 2px solid pink; */
+  border-radius: 20px;
+  width: 40px;
+  -moz-box-shadow: 0 0 3px rgb(0, 0, 0);
+  -webkit-box-shadow: 0 0 3px rgb(8, 8, 8);
+  box-shadow: 0 0 3px rgb(0, 0, 0);
+  background-color: rgb(2, 1, 1) !important;
+}
+.copyBut {
+  background-color: transparent !important;
+}
+
+/* LOADING */
+
+.wrapper {
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: black;
+  left: 15%;
+  transform-origin: 50%;
+  animation: circle 0.5s alternate infinite ease;
+}
+
+@keyframes circle {
+  0% {
+    top: 60px;
+    height: 5px;
+    border-radius: 50px 50px 25px 25px;
+    transform: scaleX(1.7);
+  }
+  40% {
+    height: 20px;
+    border-radius: 50%;
+    transform: scaleX(1);
+  }
+  100% {
+    top: 0%;
+  }
+}
+.circle:nth-child(2) {
+  left: 45%;
+  animation-delay: 0.2s;
+}
+.circle:nth-child(3) {
+  left: auto;
+  right: 15%;
+  animation-delay: 0.3s;
+}
+.shadow {
+  width: 20px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 62px;
+  transform-origin: 50%;
+  z-index: -1;
+  left: 15%;
+  filter: blur(1px);
+  animation: shadow 0.5s alternate infinite ease;
+}
+
+@keyframes shadow {
+  0% {
+    transform: scaleX(1.5);
+  }
+  40% {
+    transform: scaleX(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scaleX(0.2);
+    opacity: 0.4;
+  }
+}
+
+.shadow:nth-child(4) {
+  left: 45%;
+  animation-delay: 0.2s;
+}
+.shadow:nth-child(5) {
+  left: auto;
+  right: 15%;
+  animation-delay: 0.3s;
+}
+.wrapper span {
+  position: absolute;
+  top: 75px;
+  font-family: "Lato";
+  font-size: 20px;
+  letter-spacing: 12px;
+  color: black;
+  left: 15%;
+}
+
+/*  footer   */
+
+@media screen and (max-width: 700px) {
+  .col-sm-3 {
+    width: 90vw;
+    background: transparent;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .shareCon2 {
+    text-align: center;
+    width: 80px !important;
+    /* height: 11vh; */
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  .SocialShare2 {
+    display: block !important;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .DeletionPrompt {
+    width: 80vw !important;
+    margin-left: 10vw !important;
+  }
+}

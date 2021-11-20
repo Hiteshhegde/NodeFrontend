@@ -1,0 +1,105 @@
+.Nav {
+  background-color: transparent;
+  height: 80px;
+  display: flex;
+  /* position: fixed; */
+  width: 100%;
+  justify-content: space-between;
+  /* padding: 0.5rem calc((1000vw - 1000px) / 2); */
+  z-index: 100002352039850923850923805980;
+}
+.NavLink {
+  color: rgba(27, 26, 26, 0.972);
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  text-decoration: none;
+  height: 100%;
+}
+.NavLink:hover {
+  color: #067aff;
+  height: 50%;
+  border-radius: 15px;
+  background-color: rgba(149, 230, 233, 0.5);
+}
+.NavLink:active {
+  color: #15cdfc;
+}
+.Bars {
+  display: none;
+  color: white;
+}
+.NavMenu {
+  display: flex;
+  align-items: center;
+  margin-right: -24px;
+}
+.NavBtn {
+  display: flex;
+  align-items: center;
+  /* margin-right: 100px; */
+}
+.NavBtnLink {
+  margin-top: 17px;
+  margin-right: 10px;
+  border-radius: 50px;
+  /* border-top: 50%;
+  border-left: 50%; */
+  background: rgba(149, 230, 233, 0.5) !important;
+  padding: 10px 22px;
+  color: rgb(39, 15, 255) !important;
+  border: none;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+.NavBtn2 {
+  display: flex;
+  align-items: center;
+  /* margin-right: 100px; */
+}
+.NavBtnLink2 {
+  margin-top: 17px;
+  margin-right: 10px;
+  border-radius: 50px;
+  padding: 10px 22px;
+  color: rgb(0, 0, 0) !important;
+  border: none;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+/* .NavBtnLink:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+  color: #010606;
+} */
+.NavBtnLink:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #1147f8fa !important;
+  color: #fff !important;
+}
+.NavBtnLink:active {
+  transition: all 0.2s ease-in-out;
+  background-color: #35012e;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .Bars {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    /* transform: translate(-100%, 75%); */
+    font-size: 1.8rem;
+  }
+  .NavMenu {
+    display: none;
+  }
+  .NavBtn {
+    display: none;
+  }
+  .NavBtnLink {
+    display: none;
+  }
+}

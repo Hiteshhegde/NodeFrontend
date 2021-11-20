@@ -1,0 +1,30 @@
+body {
+  background: rgb(255, 255, 255);
+}
+::-webkit-scrollbar {
+  width: auto;
+  height: 70%;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+
+  border-radius: 100vw;
+  margin-block: 0.5em;
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(321, 96%, 48%);
+  border-radius: 100vw;
+  height: 1vh;
+  border: 0.25em solid white;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(321, 96%, 26%);
+}
+/* ::-webkit-scrollbar-button:single-button {
+  background-color: hsl(321, 95%, 16%);
+  display: block;
+  border-style: solid;
+  height: 12px;
+  width: 16px;
+} */
+/* Up */

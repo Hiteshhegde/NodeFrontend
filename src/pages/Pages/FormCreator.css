@@ -1,0 +1,52 @@
+.ulin {
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+.sideBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  z-index: 5;
+  /* display: none; */
+}
+.navbarFormCreator {
+  position: fixed;
+  /* margin-bottom: 30px; */
+  z-index: 1;
+  /* display: flex; */
+  top: 0 !important;
+  width: 100%;
+  height: 60px;
+
+  background-color: white;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.5);
+  /* transition-timing-function: ease-in-out;
+  transition: 2s; */
+}
+.navbarFormCreator ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: left;
+}
+.navbarFormCreator ul li {
+  margin: 0 1rem;
+  padding-top: 30px;
+  /* padding: 1rem;
+  padding-bottom: 0%; */
+}
+.navbarFormCreator ul li a {
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  color: rgb(179, 4, 156) !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbarFormCreatornot {
+  display: none;
+}
